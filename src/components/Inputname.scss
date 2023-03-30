@@ -1,0 +1,18 @@
+.input {
+  height: 60px;
+  color: #4e4e4e;
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  font-size: 34px;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  padding: 0;
+  outline: none;
+  &::placeholder {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 16px;
+  }
+}

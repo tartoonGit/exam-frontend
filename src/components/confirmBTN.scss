@@ -1,0 +1,18 @@
+.button {
+  color: #ffffff;
+  background-image: radial-gradient(
+    ellipse farthest-corner at top left,
+    #c41417 0%,
+    #b31315 100%
+  );
+  font-size: 25px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  }
+}
